@@ -71,7 +71,7 @@ function Page() {
                 </Heading>
                 <Paragraph>
                     <br></br>
-                    Coding, Cyber Security, Film Photography, Music, and Learning. Are on all the ever expanding list of things that I love to do and participate in.
+                    Coding, Cyber Security, Film Photography, Music, and Learning. Are on all the gever expanding list of things that I love to do and participate in.
                 </Paragraph>
             </Section>
 
