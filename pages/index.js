@@ -38,7 +38,7 @@ function Page() {
                 </Heading>
                 <Paragraph>
                     <br></br>
-                    HI I am a current student at North Garland Highschool. Coding, Reading, and Studying are the things that you will see me doing most.I am always learning and finding new hobbies, passions, and skills and this is my website to talk about, and showcase them all to you !{' '}
+                    Hi I am a current student at North Garland Highschool. Coding, Reading, and Studying are the things that you will see me doing most. I am always learning and finding new hobbies, passions, and skills and this is my website to talk about, and showcase them all to you !{' '}
                 </Paragraph>
                 <Box align="center" my={4}>
                     <NextLink href="/works">
@@ -71,7 +71,7 @@ function Page() {
                 </Heading>
                 <Paragraph>
                     <br></br>
-                    Coding, Cyber Security, Film Photography, Music, and Learning. Are on all the gever expanding list of things that I love to do and participate in.
+                    Coding, Cyber Security, Film Photography, Music, and Learning, are on all the ever expanding list of things that I love to do and participate in.
                 </Paragraph>
             </Section>
 
