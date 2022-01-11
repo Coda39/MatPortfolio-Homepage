@@ -13,7 +13,7 @@ import {
 
 function Page() {
     return (
-        <Layout>
+        <Layout>    
         <Container>
             <Box borderradius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
                 Hello I&apos; m a Student who spends majority of their time in a chair, coding!
