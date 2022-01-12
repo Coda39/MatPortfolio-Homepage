@@ -12,7 +12,7 @@ const Posts = () => (
     <Layout title = "Posts">
         <Container>
             <Heading as = "h4" fontSize = {20} mb = {4}>
-                Popular Posts
+             Posts
             </Heading>
             <Section delay = {0.1}>
                 <SimpleGrid columns = {[1,2,2]} gap = {6}>

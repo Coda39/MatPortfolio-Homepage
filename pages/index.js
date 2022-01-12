@@ -7,7 +7,7 @@ import Layout from '../components/layouts/article'
 import { BioSection , BioYear } from '../components/bio'
 import {GridItem } from '../components/grid-items'
 import {
-    IoLogoGithub
+    IoLogoGithub, IoDocumentText
 } from 'react-icons/io5'
 
 
@@ -77,15 +77,22 @@ function Page() {
 
             <Section delay = {0.3}>
                 <Heading as = "h3" variant = "section-title">
-                    On the web
+                    On the web / Relevant Links
                 </Heading>
                 <List>
                     <ListItem> 
                     <Link href = "https://github.com/Coda39" target = "_blank">
                     <Button variant = "ghost" colorScheme = "teal" leftIcon = {<Icon as = {IoLogoGithub}/>} >
-                        @Coda39
+                        Coda39
                     </Button>
                     </Link>  
+                    </ListItem>
+                    <ListItem>
+                        <Link href = "https://www.docdroid.net/CIU8UVo/mateo-estrada-resume-pdf" target = "_blank">
+                            <Button variant = "ghost" colorScheme = "teal" leftIcon = {<Icon as = {IoDocumentText}/>} >
+                                Resume
+                            </Button>
+                        </Link>
                     </ListItem>
                 </List>
             </Section>
