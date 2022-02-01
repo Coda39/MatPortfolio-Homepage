@@ -1,6 +1,5 @@
 # MatPortfolio-Homepage
-My Homepage / Portfolio 
-Portfolio centering around achievements, projects, and overall situation traversing through life 
+My Homepage / Portfolio centering around achievements, projects, and my overall situation traversing through life 
 
 Built using Node.js, React, ChackraUI, and more to come!
 
