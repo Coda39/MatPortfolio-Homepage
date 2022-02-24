@@ -7,7 +7,7 @@ import Layout from '../components/layouts/article'
 import { BioSection , BioYear } from '../components/bio'
 import {GridItem } from '../components/grid-items'
 import {
-    IoLogoGithub, IoDocumentText
+    IoLogoGithub, IoDocumentText, IoMail, 
 } from 'react-icons/io5'
 
 
@@ -15,7 +15,7 @@ function Page() {
     return (
         <Layout>    
         <Container>
-            <Box borderradius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
+            <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
                 Hello I&apos; m a Student who spends majority of their time in a chair, coding!
             </Box>
             <Box display={{ md: 'flex' }}>
@@ -91,6 +91,13 @@ function Page() {
                         <Link href = "https://www.docdroid.net/CIU8UVo/mateo-estrada-resume-pdf" target = "_blank">
                             <Button variant = "ghost" colorScheme = "teal" leftIcon = {<Icon as = {IoDocumentText}/>} >
                                 Resume
+                            </Button>
+                        </Link>
+                    </ListItem>
+                    <ListItem>
+                        <Link href = "mailto:mateo404521@gmail.com" target = "_blank">
+                            <Button variant = "ghost" colorScheme= "teal" leftIcon = {<Icon as ={IoMail}/>} >
+                                Email
                             </Button>
                         </Link>
                     </ListItem>
