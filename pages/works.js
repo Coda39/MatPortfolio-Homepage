@@ -4,6 +4,7 @@ import { WorkGridItem } from '../components/grid-items'
 import thumbPythongame from '../public/images/works/DodgeRunner_Python.png'
 import thumbCyberSec from '../public/images/works/CyberSec.png'
 import Layout from '../components/layouts/article'
+
 const Works = () => {
     return (
         <Layout>
