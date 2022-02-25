@@ -94,13 +94,6 @@ function Page() {
                             </Button>
                         </Link>
                     </ListItem>
-                    <ListItem>
-                        <Link href = "mailto:mateo404521@gmail.com" target = "_blank">
-                            <Button variant = "ghost" colorScheme= "teal" leftIcon = {<Icon as ={IoMail}/>} >
-                                Email
-                            </Button>
-                        </Link>
-                    </ListItem>
                 </List>
             </Section>
         </Container>
