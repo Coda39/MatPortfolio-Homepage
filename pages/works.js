@@ -18,11 +18,7 @@ const Works = () => {
                 Making 2d games using Python and the Pygame library  
             </WorkGridItem>
          </Section>
-         <Section>
-             <WorkGridItem id = "CyberSec" title = "CyberSecurity" thumbnail = {thumbCyberSec}>
-                 Learning CyberSecurity through PLTW and creating infographics to help promote smart Cyber use. 
-             </WorkGridItem>
-         </Section>
+         
          </SimpleGrid>
         </Container>
        </Layout>

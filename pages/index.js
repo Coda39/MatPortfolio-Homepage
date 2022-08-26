@@ -16,7 +16,7 @@ function Page() {
         <Layout>    
         <Container>
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-                Hello I&apos; m a Student who spends majority of their time in a chair, coding!
+                Hello I&apos;m a Student who spends majority of their time in a chair, coding!
             </Box>
             <Box display={{ md: 'flex' }}>
                 <Box flexGrow={1}>
@@ -38,7 +38,7 @@ function Page() {
                 </Heading>
                 <Paragraph>
                     <br></br>
-                    Hi I am a current student at North Garland Highschool. Coding, Reading, and Studying are the things that you will see me doing most. I am always learning and finding new hobbies, passions, and skills and this is my website to talk about, and showcase them all to you !{' '}
+                    I am a current student at the University of Texas at Dallas (UTD). Coding, reading, flim photography, and studying are the things that you will see me doing most. I am always learning and finding new hobbies, passions, and skills and this is my website to talk about, and showcase them all to you !{' '}
                 </Paragraph>
                 <Box align="center" my={4}>
                     <NextLink href="/works">
@@ -60,8 +60,12 @@ function Page() {
                     Born in Garland, Texas
                 </BioSection>
                 <BioSection>
-                    <BioYear>Present</BioYear>
-                    Senior at North Garland Highschool, studying Computer Science and looking to become both Java and Python certified.
+                    <BioYear>2018-2022</BioYear>
+                    Student at North Garland Highschool, started studying Computer Science getting proficient in both Java and Python
+                </BioSection>
+                <BioSection>
+                    <BioYear>2022-Present</BioYear>
+                    Studying computer science at UTD
                 </BioSection>
             </Section>
 
@@ -71,7 +75,7 @@ function Page() {
                 </Heading>
                 <Paragraph>
                     <br></br>
-                    Coding, Cyber Security, Film Photography, Music, and Learning, are on all the ever expanding list of things that I love to do and participate in.
+                    Coding, Cyber Security, Film Photography, Music, and Learning, are on all the ever expanding list of things that I love to do and participate in. I am also currently looking to expand my knowledge relating to cyber-security, programming, and neuroscience. 
                 </Paragraph>
             </Section>
 
@@ -83,7 +87,7 @@ function Page() {
                     <ListItem> 
                     <Link href = "https://github.com/Coda39" target = "_blank">
                     <Button variant = "ghost" colorScheme = "teal" leftIcon = {<Icon as = {IoLogoGithub}/>} >
-                        Coda39
+                        Coda39 
                     </Button>
                     </Link>  
                     </ListItem>
