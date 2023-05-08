@@ -2,7 +2,7 @@ import {Container, Box, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-items'
 import thumbPythongame from '../public/images/works/DodgeRunner_Python.png'
-import thumbCyberSec from '../public/images/works/CyberSec.png'
+import thumbInTheMoment from '../public/images/works/InTheMomentThumb.jpeg'
 import Layout from '../components/layouts/article'
 
 const Works = () => {
@@ -13,11 +13,11 @@ const Works = () => {
             Works 
          </Heading>
          <SimpleGrid columns = {[1,1,2]} gap = {6}> 
-         <Section>
-            <WorkGridItem id = "PythonGames" title = "Python Games" thumbnail={thumbPythongame}>
-                Making 2d games using Python and the Pygame library  
-            </WorkGridItem>
-         </Section>
+             <Section>
+                <WorkGridItem id = "InTheMoment" title = "In The Moment" thumbnail={thumbInTheMoment}>
+                    Modern Mobile App that aims to help you take back your life.
+                </WorkGridItem>
+             </Section>
          
          </SimpleGrid>
         </Container>
