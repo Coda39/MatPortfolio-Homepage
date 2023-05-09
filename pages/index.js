@@ -28,7 +28,7 @@ function Page() {
                     </p>
                 </Box>
                 <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align="center">
-                    <Image borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="200px" display="inline-block" borderRadius="15px" src="/images/icon.jpg" alt="Profile Image" />
+                    <Image borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="300px" display="inline-block" borderRadius="15px" src="/images/ProfileImage.jpg" alt="Profile Image" />
                 </Box>
             </Box>
             
