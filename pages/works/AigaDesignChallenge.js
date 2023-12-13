@@ -27,7 +27,8 @@ const Work = () => (
       a design challenge where, given a prompt students attempt a design in any
       medium they choose and have to create and present their design infront of
       judges and bystanders, in a design exchange. The prompt this semester was
-      to design something that would help promote and
+      to design something that would help promote and improve the comet
+      cupboard.
     </P>
     <br></br>
     <Heading>The Problem</Heading>
