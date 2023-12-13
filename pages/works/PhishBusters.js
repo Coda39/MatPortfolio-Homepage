@@ -11,8 +11,8 @@ import Layout from "../../components/layouts/article";
 import { Meta, WorkImage, Title, WorkGif } from "../../components/works";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import Section from "../../components/section";
-import { GridItem } from "@chakra-ui/react";
 import P from "../../components/paragraph";
+import { GridItem } from "@chakra-ui/react";
 
 const Work = () => (
   <Layout title="InTheMoment">

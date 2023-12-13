@@ -3,6 +3,7 @@ import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-items";
 import thumbInTheMoment from "../public/images/works/InTheMomentThumb.jpeg";
 import thumbPhishBusters from "../public/images/works/PhishBusters.jpg";
+import thumb2023Aiga from "../public/images/works/2023Aiga.png";
 
 import Layout from "../components/layouts/article";
 
@@ -16,11 +17,11 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem
-              id="InTheMoment"
-              title="In The Moment"
-              thumbnail={thumbInTheMoment}
+              id="AigaDesignChallenge"
+              title="Comet Cupboard Design Challenge"
+              thumbnail={thumb2023Aiga}
             >
-              Modern Mobile App that aims to help you take back your life.
+              Submission for 2023 Fall UTD Aiga Design Challenge
             </WorkGridItem>
           </Section>
           <Section>
@@ -30,6 +31,15 @@ const Works = () => {
               thumbnail={thumbPhishBusters}
             >
               Cyber Security themed Blog Page.
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="InTheMoment"
+              title="In The Moment"
+              thumbnail={thumbInTheMoment}
+            >
+              Modern Mobile App that aims to help you take back your life.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
